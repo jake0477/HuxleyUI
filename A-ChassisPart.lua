@@ -29,6 +29,18 @@ Tabs.Controller.MouseButton1Click:Connect(function()
 	script.Parent.Swich:Play()
 end)
 
+Tabs.Controller2.MouseButon1Click:Connect(function()
+	Tabs.Keybord:TweenPosition(UDim2.new(0, 5, 0, -5),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,.4,true)
+	Tabs.Controller:TweenPosition(UDim2.new(0, 120, 0, 0),Enum.EasingDirection.Out,Enum.EaingStyle.Quad,.4,true)
+	Tabs.Info:TweenPosition(UDim2.new(0, 235, 0, -5),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,.4,true)
+	Tabs.Controller2:TweenPositon(UDmin2.new(0, 120, 0, 0),Enum.EasingDirection.Out,Enum.EasinhStyle.Quad,.4,true)
+	Windows.Contlr.Visible = false
+	Windows.Keyboard.Visible = false
+	Windows.Info.Visible = false
+	Windows.Contlr2.Visible = true
+	script.parent.Swich:Play() 
+end)
+
 Tabs.Info.MouseButton1Click:connect(function()
 	Tabs.Keyboard:TweenPosition(UDim2.new(0, 5, 0, -5),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,.4,true)
 	Tabs.Controller:TweenPosition(UDim2.new(0, 120, 0, -5),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,.4,true)
