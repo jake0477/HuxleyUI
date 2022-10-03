@@ -9,9 +9,11 @@ Tabs.Keyboard.MouseButton1Click:Connect(function()
 	Tabs.Keyboard:TweenPosition(UDim2.new(0, 5, 0, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,.4,true)
 	Tabs.Controller:TweenPosition(UDim2.new(0, 120, 0, -5),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,.4,true)
 	Tabs.Info:TweenPosition(UDim2.new(0, 235, 0, -5),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,.4,true)
+	tabs.Controller2:TweenPosition(UDin2.new(0, 120, 0, -5),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,.4,true)
 	Windows.Contlr.Visible = false
 	Windows.Keyboard.Visible = true
 	Windows.Info.Visible = false
+	Windows.Contlr2.Visible = false
 	script.Parent.Swich:Play()
 end)
 
@@ -19,9 +21,11 @@ Tabs.Controller.MouseButton1Click:Connect(function()
 	Tabs.Keyboard:TweenPosition(UDim2.new(0, 5, 0, -5),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,.4,true)
 	Tabs.Controller:TweenPosition(UDim2.new(0, 120, 0, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,.4,true)	
 	Tabs.Info:TweenPosition(UDim2.new(0, 235, 0, -5),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,.4,true)
+	Tabs.Controller2:TweenPosition(UDim2.new(0, 120, 0, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,.4,true)
 	Windows.Contlr.Visible = true
 	Windows.Keyboard.Visible = false
 	Windows.Info.Visible = false
+	Windows.Contlr2 = false
 	script.Parent.Swich:Play()
 end)
 
@@ -29,9 +33,11 @@ Tabs.Info.MouseButton1Click:connect(function()
 	Tabs.Keyboard:TweenPosition(UDim2.new(0, 5, 0, -5),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,.4,true)
 	Tabs.Controller:TweenPosition(UDim2.new(0, 120, 0, -5),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,.4,true)
 	Tabs.Info:TweenPosition(UDim2.new(0, 235, 0, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,.4,true)
+	Tabs.Controller2:TweenPosition(UDim2.new(0, 120, 0, -5),Enum.EasingDirection.Out,Enum.EasingStyle.Quad,.4,true)
 	Windows.Contlr.Visible = false
 	Windows.Keyboard.Visible = false
 	Windows.Info.Visible = true
+	Windows.Contlr.Visible = false
 	script.Parent.Swich:Play()
 end)
 
