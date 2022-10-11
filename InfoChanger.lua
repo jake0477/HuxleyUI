@@ -22,3 +22,8 @@ end
 if BusSettings.WorkingKeyIgnition == false then
 	Stuff2.Starter.Visible = false
 end
+
+-- checks if the light have surface lights that works with them
+if BusSettings.LightPoingts == false then
+	Stuff2.Lights = false -- makes the point light notifaction in chassis info
+end
