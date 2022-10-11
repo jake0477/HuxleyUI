@@ -1,3 +1,8 @@
+--[[
+	Huxley Controlers, Hux4.2
+	@author: Jake_7977
+	Last Updated: 10/11/22
+]]
 local BusSettings = require(script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.DriveSeat.BusSettings)
 local Stuff = script.Parent
 local Stuff2 = script.Parent.Parent.Info
