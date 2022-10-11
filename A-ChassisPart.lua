@@ -1,3 +1,9 @@
+--[[
+	Huxley Controlers, Hux4.2
+	@author: Jake_7977
+	Last Updated: 10/11/22
+]]
+
 local cPanel = script.Parent
 local controlsOpen = false
 local UIS1 = nil
